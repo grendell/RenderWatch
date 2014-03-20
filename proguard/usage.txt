@@ -1,0 +1,47 @@
+com.grendell.renderwatch.BuildConfig
+com.grendell.renderwatch.R
+com.grendell.renderwatch.R$attr
+com.grendell.renderwatch.R$drawable
+com.grendell.renderwatch.R$id
+com.grendell.renderwatch.R$layout
+com.grendell.renderwatch.R$raw
+com.grendell.renderwatch.R$string
+com.grendell.renderwatch.R$style
+com.grendell.renderwatch.ScriptC_watch:
+    private static final java.lang.String __rs_resource_name
+    private android.support.v8.renderscript.FieldPacker __rs_fp_I32
+    private android.support.v8.renderscript.FieldPacker __rs_fp_I32_2
+    private static final int mExportVarIdx_gCenter
+    private static final int mExportVarIdx_gHourHandEndpoint
+    private static final int mExportVarIdx_gHourHandWidthSqr
+    private static final int mExportVarIdx_gMinuteHandEndpoint
+    private static final int mExportVarIdx_gMinuteHandWidthSqr
+    private static final int mExportVarIdx_gSecondHandEndpoint
+    private static final int mExportVarIdx_gSecondHandWidthSqr
+    private static final int mExportForEachIdx_render
+    33:38:public ScriptC_watch(android.support.v8.renderscript.RenderScript)
+    64:64:public android.support.v8.renderscript.Int2 get_gCenter()
+    68:68:public android.support.v8.renderscript.Script$FieldID getFieldID_gCenter()
+    83:83:public android.support.v8.renderscript.Int2 get_gHourHandEndpoint()
+    87:87:public android.support.v8.renderscript.Script$FieldID getFieldID_gHourHandEndpoint()
+    98:98:public int get_gHourHandWidthSqr()
+    102:102:public android.support.v8.renderscript.Script$FieldID getFieldID_gHourHandWidthSqr()
+    117:117:public android.support.v8.renderscript.Int2 get_gMinuteHandEndpoint()
+    121:121:public android.support.v8.renderscript.Script$FieldID getFieldID_gMinuteHandEndpoint()
+    132:132:public int get_gMinuteHandWidthSqr()
+    136:136:public android.support.v8.renderscript.Script$FieldID getFieldID_gMinuteHandWidthSqr()
+    151:151:public android.support.v8.renderscript.Int2 get_gSecondHandEndpoint()
+    155:155:public android.support.v8.renderscript.Script$FieldID getFieldID_gSecondHandEndpoint()
+    166:166:public int get_gSecondHandWidthSqr()
+    170:170:public android.support.v8.renderscript.Script$FieldID getFieldID_gSecondHandWidthSqr()
+    176:176:public android.support.v8.renderscript.Script$KernelID getKernelID_render()
+com.grendell.renderwatch.view.RenderWatchView:
+    private static final float HOUR_HAND_MAGNITUDE
+    private static final int HOUR_HAND_WIDTH_SQR
+    private static final float MINUTE_HAND_MAGNITUDE
+    private static final int MINUTE_HAND_WIDTH_SQR
+    private static final float SECOND_HAND_MAGNITUDE
+    private static final int SECOND_HAND_WIDTH_SQR
+    private static final long SEC_PER_MIN
+    private static final long SEC_PER_HOUR
+    private static final long SEC_PER_TWELVE_HOURS

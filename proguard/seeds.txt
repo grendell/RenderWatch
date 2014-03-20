@@ -1,0 +1,1456 @@
+android.support.v8.renderscript.Allocation
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Type mType
+android.support.v8.renderscript.Allocation: android.graphics.Bitmap mBitmap
+android.support.v8.renderscript.Allocation: int mUsage
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation mAdaptedAllocation
+android.support.v8.renderscript.Allocation: int mSize
+android.support.v8.renderscript.Allocation: boolean mConstrainedLOD
+android.support.v8.renderscript.Allocation: boolean mConstrainedFace
+android.support.v8.renderscript.Allocation: boolean mConstrainedY
+android.support.v8.renderscript.Allocation: boolean mConstrainedZ
+android.support.v8.renderscript.Allocation: boolean mReadAllowed
+android.support.v8.renderscript.Allocation: boolean mWriteAllowed
+android.support.v8.renderscript.Allocation: int mSelectedY
+android.support.v8.renderscript.Allocation: int mSelectedZ
+android.support.v8.renderscript.Allocation: int mSelectedLOD
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Type$CubemapFace mSelectedFace
+android.support.v8.renderscript.Allocation: int mCurrentDimX
+android.support.v8.renderscript.Allocation: int mCurrentDimY
+android.support.v8.renderscript.Allocation: int mCurrentDimZ
+android.support.v8.renderscript.Allocation: int mCurrentCount
+android.support.v8.renderscript.Allocation: int USAGE_SCRIPT
+android.support.v8.renderscript.Allocation: int USAGE_GRAPHICS_TEXTURE
+android.support.v8.renderscript.Allocation: int USAGE_IO_INPUT
+android.support.v8.renderscript.Allocation: int USAGE_IO_OUTPUT
+android.support.v8.renderscript.Allocation: int USAGE_SHARED
+android.support.v8.renderscript.Allocation: android.graphics.BitmapFactory$Options mBitmapOptions
+android.support.v8.renderscript.Allocation: int getIDSafe()
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Element getElement()
+android.support.v8.renderscript.Allocation: int getUsage()
+android.support.v8.renderscript.Allocation: int getBytesSize()
+android.support.v8.renderscript.Allocation: void updateCacheInfo(android.support.v8.renderscript.Type)
+android.support.v8.renderscript.Allocation: void setBitmap(android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: Allocation(int,android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Type,int)
+android.support.v8.renderscript.Allocation: void finalize()
+android.support.v8.renderscript.Allocation: void validateIsInt32()
+android.support.v8.renderscript.Allocation: void validateIsInt16()
+android.support.v8.renderscript.Allocation: void validateIsInt8()
+android.support.v8.renderscript.Allocation: void validateIsFloat32()
+android.support.v8.renderscript.Allocation: void validateIsObject()
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Type getType()
+android.support.v8.renderscript.Allocation: void syncAll(int)
+android.support.v8.renderscript.Allocation: void ioSend()
+android.support.v8.renderscript.Allocation: void ioSendOutput()
+android.support.v8.renderscript.Allocation: void ioReceive()
+android.support.v8.renderscript.Allocation: void copyFrom(android.support.v8.renderscript.BaseObj[])
+android.support.v8.renderscript.Allocation: void validateBitmapFormat(android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: void validateBitmapSize(android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: void copyFromUnchecked(int[])
+android.support.v8.renderscript.Allocation: void copyFromUnchecked(short[])
+android.support.v8.renderscript.Allocation: void copyFromUnchecked(byte[])
+android.support.v8.renderscript.Allocation: void copyFromUnchecked(float[])
+android.support.v8.renderscript.Allocation: void copyFrom(int[])
+android.support.v8.renderscript.Allocation: void copyFrom(short[])
+android.support.v8.renderscript.Allocation: void copyFrom(byte[])
+android.support.v8.renderscript.Allocation: void copyFrom(float[])
+android.support.v8.renderscript.Allocation: void copyFrom(android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: void copyFrom(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.Allocation: void setFromFieldPacker(int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.Allocation: void setFromFieldPacker(int,int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.Allocation: void data1DChecks(int,int,int,int)
+android.support.v8.renderscript.Allocation: void generateMipmaps()
+android.support.v8.renderscript.Allocation: void copy1DRangeFromUnchecked(int,int,int[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFromUnchecked(int,int,short[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFromUnchecked(int,int,byte[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFromUnchecked(int,int,float[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFrom(int,int,int[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFrom(int,int,short[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFrom(int,int,byte[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFrom(int,int,float[])
+android.support.v8.renderscript.Allocation: void copy1DRangeFrom(int,int,android.support.v8.renderscript.Allocation,int)
+android.support.v8.renderscript.Allocation: void validate2DRange(int,int,int,int)
+android.support.v8.renderscript.Allocation: void copy2DRangeFromUnchecked(int,int,int,int,byte[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFromUnchecked(int,int,int,int,short[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFromUnchecked(int,int,int,int,int[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFromUnchecked(int,int,int,int,float[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFrom(int,int,int,int,byte[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFrom(int,int,int,int,short[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFrom(int,int,int,int,int[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFrom(int,int,int,int,float[])
+android.support.v8.renderscript.Allocation: void copy2DRangeFrom(int,int,int,int,android.support.v8.renderscript.Allocation,int,int)
+android.support.v8.renderscript.Allocation: void copy2DRangeFrom(int,int,android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: void validate3DRange(int,int,int,int,int,int)
+android.support.v8.renderscript.Allocation: void copy3DRangeFromUnchecked(int,int,int,int,int,int,byte[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFromUnchecked(int,int,int,int,int,int,short[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFromUnchecked(int,int,int,int,int,int,int[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFromUnchecked(int,int,int,int,int,int,float[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFrom(int,int,int,int,int,int,byte[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFrom(int,int,int,int,int,int,short[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFrom(int,int,int,int,int,int,int[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFrom(int,int,int,int,int,int,float[])
+android.support.v8.renderscript.Allocation: void copy3DRangeFrom(int,int,int,int,int,int,android.support.v8.renderscript.Allocation,int,int,int)
+android.support.v8.renderscript.Allocation: void copyTo(android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: void copyTo(byte[])
+android.support.v8.renderscript.Allocation: void copyTo(short[])
+android.support.v8.renderscript.Allocation: void copyTo(int[])
+android.support.v8.renderscript.Allocation: void copyTo(float[])
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createTyped(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Type,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createTyped(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Type,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createTyped(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Type)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createSized(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element,int,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createSized(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Element elementFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Type typeFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.support.v8.renderscript.Allocation$MipmapControl)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createCubemapFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createCubemapFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createCubemapFromCubeFaces(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createCubemapFromCubeFaces(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createFromBitmapResource(android.support.v8.renderscript.RenderScript,android.content.res.Resources,int,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createFromBitmapResource(android.support.v8.renderscript.RenderScript,android.content.res.Resources,int)
+android.support.v8.renderscript.Allocation: android.support.v8.renderscript.Allocation createFromString(android.support.v8.renderscript.RenderScript,java.lang.String,int)
+android.support.v8.renderscript.Allocation: void <clinit>()
+android.support.v8.renderscript.Allocation$1
+android.support.v8.renderscript.Allocation$1: int[] $SwitchMap$android$graphics$Bitmap$Config
+android.support.v8.renderscript.Allocation$1: void <clinit>()
+android.support.v8.renderscript.Allocation$MipmapControl
+android.support.v8.renderscript.Allocation$MipmapControl: android.support.v8.renderscript.Allocation$MipmapControl MIPMAP_NONE
+android.support.v8.renderscript.Allocation$MipmapControl: android.support.v8.renderscript.Allocation$MipmapControl MIPMAP_FULL
+android.support.v8.renderscript.Allocation$MipmapControl: android.support.v8.renderscript.Allocation$MipmapControl MIPMAP_ON_SYNC_TO_TEXTURE
+android.support.v8.renderscript.Allocation$MipmapControl: int mID
+android.support.v8.renderscript.Allocation$MipmapControl: android.support.v8.renderscript.Allocation$MipmapControl[] $VALUES
+android.support.v8.renderscript.Allocation$MipmapControl: android.support.v8.renderscript.Allocation$MipmapControl[] values()
+android.support.v8.renderscript.Allocation$MipmapControl: android.support.v8.renderscript.Allocation$MipmapControl valueOf(java.lang.String)
+android.support.v8.renderscript.Allocation$MipmapControl: Allocation$MipmapControl(java.lang.String,int,int)
+android.support.v8.renderscript.Allocation$MipmapControl: void <clinit>()
+android.support.v8.renderscript.AllocationThunker
+android.support.v8.renderscript.AllocationThunker: android.renderscript.Allocation mN
+android.support.v8.renderscript.AllocationThunker: android.graphics.BitmapFactory$Options mBitmapOptions
+android.support.v8.renderscript.AllocationThunker: android.renderscript.Allocation getNObj()
+android.support.v8.renderscript.AllocationThunker: android.renderscript.Allocation$MipmapControl convertMipmapControl(android.support.v8.renderscript.Allocation$MipmapControl)
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Type getType()
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Element getElement()
+android.support.v8.renderscript.AllocationThunker: int getUsage()
+android.support.v8.renderscript.AllocationThunker: int getBytesSize()
+android.support.v8.renderscript.AllocationThunker: AllocationThunker(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Type,int,android.renderscript.Allocation)
+android.support.v8.renderscript.AllocationThunker: void syncAll(int)
+android.support.v8.renderscript.AllocationThunker: void ioSend()
+android.support.v8.renderscript.AllocationThunker: void ioReceive()
+android.support.v8.renderscript.AllocationThunker: void copyFrom(android.support.v8.renderscript.BaseObj[])
+android.support.v8.renderscript.AllocationThunker: void copyFromUnchecked(int[])
+android.support.v8.renderscript.AllocationThunker: void copyFromUnchecked(short[])
+android.support.v8.renderscript.AllocationThunker: void copyFromUnchecked(byte[])
+android.support.v8.renderscript.AllocationThunker: void copyFromUnchecked(float[])
+android.support.v8.renderscript.AllocationThunker: void copyFrom(int[])
+android.support.v8.renderscript.AllocationThunker: void copyFrom(short[])
+android.support.v8.renderscript.AllocationThunker: void copyFrom(byte[])
+android.support.v8.renderscript.AllocationThunker: void copyFrom(float[])
+android.support.v8.renderscript.AllocationThunker: void copyFrom(android.graphics.Bitmap)
+android.support.v8.renderscript.AllocationThunker: void copyFrom(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.AllocationThunker: void setFromFieldPacker(int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.AllocationThunker: void setFromFieldPacker(int,int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.AllocationThunker: void generateMipmaps()
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFromUnchecked(int,int,int[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFromUnchecked(int,int,short[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFromUnchecked(int,int,byte[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFromUnchecked(int,int,float[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFrom(int,int,int[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFrom(int,int,short[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFrom(int,int,byte[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFrom(int,int,float[])
+android.support.v8.renderscript.AllocationThunker: void copy1DRangeFrom(int,int,android.support.v8.renderscript.Allocation,int)
+android.support.v8.renderscript.AllocationThunker: void copy2DRangeFrom(int,int,int,int,byte[])
+android.support.v8.renderscript.AllocationThunker: void copy2DRangeFrom(int,int,int,int,short[])
+android.support.v8.renderscript.AllocationThunker: void copy2DRangeFrom(int,int,int,int,int[])
+android.support.v8.renderscript.AllocationThunker: void copy2DRangeFrom(int,int,int,int,float[])
+android.support.v8.renderscript.AllocationThunker: void copy2DRangeFrom(int,int,int,int,android.support.v8.renderscript.Allocation,int,int)
+android.support.v8.renderscript.AllocationThunker: void copy2DRangeFrom(int,int,android.graphics.Bitmap)
+android.support.v8.renderscript.AllocationThunker: void copyTo(android.graphics.Bitmap)
+android.support.v8.renderscript.AllocationThunker: void copyTo(byte[])
+android.support.v8.renderscript.AllocationThunker: void copyTo(short[])
+android.support.v8.renderscript.AllocationThunker: void copyTo(int[])
+android.support.v8.renderscript.AllocationThunker: void copyTo(float[])
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Allocation createTyped(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Type,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Allocation createFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Allocation createCubemapFromBitmap(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Allocation createCubemapFromCubeFaces(android.support.v8.renderscript.RenderScript,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.graphics.Bitmap,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Allocation createFromBitmapResource(android.support.v8.renderscript.RenderScript,android.content.res.Resources,int,android.support.v8.renderscript.Allocation$MipmapControl,int)
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Allocation createFromString(android.support.v8.renderscript.RenderScript,java.lang.String,int)
+android.support.v8.renderscript.AllocationThunker: android.support.v8.renderscript.Allocation createSized(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element,int,int)
+android.support.v8.renderscript.AllocationThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.AllocationThunker: void <clinit>()
+android.support.v8.renderscript.AllocationThunker$1
+android.support.v8.renderscript.AllocationThunker$1: int[] $SwitchMap$android$support$v8$renderscript$Allocation$MipmapControl
+android.support.v8.renderscript.AllocationThunker$1: void <clinit>()
+android.support.v8.renderscript.BaseObj
+android.support.v8.renderscript.BaseObj: int mID
+android.support.v8.renderscript.BaseObj: boolean mDestroyed
+android.support.v8.renderscript.BaseObj: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.BaseObj: BaseObj(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.BaseObj: void setID(int)
+android.support.v8.renderscript.BaseObj: int getID(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.BaseObj: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.BaseObj: void checkValid()
+android.support.v8.renderscript.BaseObj: void finalize()
+android.support.v8.renderscript.BaseObj: void destroy()
+android.support.v8.renderscript.BaseObj: int hashCode()
+android.support.v8.renderscript.BaseObj: boolean equals(java.lang.Object)
+android.support.v8.renderscript.Byte2
+android.support.v8.renderscript.Byte2: byte x
+android.support.v8.renderscript.Byte2: byte y
+android.support.v8.renderscript.Byte2: Byte2()
+android.support.v8.renderscript.Byte2: Byte2(byte,byte)
+android.support.v8.renderscript.Byte3
+android.support.v8.renderscript.Byte3: byte x
+android.support.v8.renderscript.Byte3: byte y
+android.support.v8.renderscript.Byte3: byte z
+android.support.v8.renderscript.Byte3: Byte3()
+android.support.v8.renderscript.Byte3: Byte3(byte,byte,byte)
+android.support.v8.renderscript.Byte4
+android.support.v8.renderscript.Byte4: byte x
+android.support.v8.renderscript.Byte4: byte y
+android.support.v8.renderscript.Byte4: byte z
+android.support.v8.renderscript.Byte4: byte w
+android.support.v8.renderscript.Byte4: Byte4()
+android.support.v8.renderscript.Byte4: Byte4(byte,byte,byte,byte)
+android.support.v8.renderscript.Double2
+android.support.v8.renderscript.Double2: double x
+android.support.v8.renderscript.Double2: double y
+android.support.v8.renderscript.Double2: Double2()
+android.support.v8.renderscript.Double2: Double2(double,double)
+android.support.v8.renderscript.Double3
+android.support.v8.renderscript.Double3: double x
+android.support.v8.renderscript.Double3: double y
+android.support.v8.renderscript.Double3: double z
+android.support.v8.renderscript.Double3: Double3()
+android.support.v8.renderscript.Double3: Double3(double,double,double)
+android.support.v8.renderscript.Double4
+android.support.v8.renderscript.Double4: double x
+android.support.v8.renderscript.Double4: double y
+android.support.v8.renderscript.Double4: double z
+android.support.v8.renderscript.Double4: double w
+android.support.v8.renderscript.Double4: Double4()
+android.support.v8.renderscript.Double4: Double4(double,double,double,double)
+android.support.v8.renderscript.Element
+android.support.v8.renderscript.Element: int mSize
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element[] mElements
+android.support.v8.renderscript.Element: java.lang.String[] mElementNames
+android.support.v8.renderscript.Element: int[] mArraySizes
+android.support.v8.renderscript.Element: int[] mOffsetInBytes
+android.support.v8.renderscript.Element: int[] mVisibleElementMap
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element$DataType mType
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element$DataKind mKind
+android.support.v8.renderscript.Element: boolean mNormalized
+android.support.v8.renderscript.Element: int mVectorSize
+android.support.v8.renderscript.Element: void updateVisibleSubElements()
+android.support.v8.renderscript.Element: int getBytesSize()
+android.support.v8.renderscript.Element: int getVectorSize()
+android.support.v8.renderscript.Element: boolean isComplex()
+android.support.v8.renderscript.Element: int getSubElementCount()
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element getSubElement(int)
+android.support.v8.renderscript.Element: java.lang.String getSubElementName(int)
+android.support.v8.renderscript.Element: int getSubElementArraySize(int)
+android.support.v8.renderscript.Element: int getSubElementOffsetBytes(int)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element$DataType getDataType()
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element$DataKind getDataKind()
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element BOOLEAN(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U8(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I8(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U16(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I16(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U32(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I32(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U64(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I64(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F32(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F64(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element ELEMENT(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element TYPE(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element ALLOCATION(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element SAMPLER(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element SCRIPT(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element A_8(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element RGB_565(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element RGB_888(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element RGBA_5551(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element RGBA_4444(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element RGBA_8888(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F32_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F32_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F32_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F64_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F64_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element F64_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U8_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U8_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U8_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I8_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I8_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I8_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U16_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U16_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U16_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I16_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I16_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I16_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U32_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U32_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U32_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I32_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I32_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I32_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U64_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U64_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element U64_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I64_2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I64_3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element I64_4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element MATRIX_4X4(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element MATRIX_3X3(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element MATRIX_2X2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: Element(int,android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element[],java.lang.String[],int[])
+android.support.v8.renderscript.Element: Element(int,android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element$DataType,android.support.v8.renderscript.Element$DataKind,boolean,int)
+android.support.v8.renderscript.Element: Element(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element createUser(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element$DataType)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element createVector(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element$DataType,int)
+android.support.v8.renderscript.Element: android.support.v8.renderscript.Element createPixel(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element$DataType,android.support.v8.renderscript.Element$DataKind)
+android.support.v8.renderscript.Element: boolean isCompatible(android.support.v8.renderscript.Element)
+android.support.v8.renderscript.Element$1
+android.support.v8.renderscript.Element$1: int[] $SwitchMap$android$support$v8$renderscript$Element$DataType
+android.support.v8.renderscript.Element$1: int[] $SwitchMap$android$support$v8$renderscript$Element$DataKind
+android.support.v8.renderscript.Element$1: void <clinit>()
+android.support.v8.renderscript.Element$Builder
+android.support.v8.renderscript.Element$Builder: android.support.v8.renderscript.ElementThunker$BuilderThunker mT
+android.support.v8.renderscript.Element$Builder: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.Element$Builder: android.support.v8.renderscript.Element[] mElements
+android.support.v8.renderscript.Element$Builder: java.lang.String[] mElementNames
+android.support.v8.renderscript.Element$Builder: int[] mArraySizes
+android.support.v8.renderscript.Element$Builder: int mCount
+android.support.v8.renderscript.Element$Builder: int mSkipPadding
+android.support.v8.renderscript.Element$Builder: Element$Builder(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Element$Builder: android.support.v8.renderscript.Element$Builder add(android.support.v8.renderscript.Element,java.lang.String,int)
+android.support.v8.renderscript.Element$Builder: android.support.v8.renderscript.Element$Builder add(android.support.v8.renderscript.Element,java.lang.String)
+android.support.v8.renderscript.Element$Builder: android.support.v8.renderscript.Element create()
+android.support.v8.renderscript.Element$DataKind
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind USER
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind PIXEL_L
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind PIXEL_A
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind PIXEL_LA
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind PIXEL_RGB
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind PIXEL_RGBA
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind PIXEL_DEPTH
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind PIXEL_YUV
+android.support.v8.renderscript.Element$DataKind: int mID
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind[] $VALUES
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind[] values()
+android.support.v8.renderscript.Element$DataKind: android.support.v8.renderscript.Element$DataKind valueOf(java.lang.String)
+android.support.v8.renderscript.Element$DataKind: Element$DataKind(java.lang.String,int,int)
+android.support.v8.renderscript.Element$DataKind: void <clinit>()
+android.support.v8.renderscript.Element$DataType
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType NONE
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType FLOAT_32
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType FLOAT_64
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType SIGNED_8
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType SIGNED_16
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType SIGNED_32
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType SIGNED_64
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType UNSIGNED_8
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType UNSIGNED_16
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType UNSIGNED_32
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType UNSIGNED_64
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType BOOLEAN
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType UNSIGNED_5_6_5
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType UNSIGNED_5_5_5_1
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType UNSIGNED_4_4_4_4
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType MATRIX_4X4
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType MATRIX_3X3
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType MATRIX_2X2
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType RS_ELEMENT
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType RS_TYPE
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType RS_ALLOCATION
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType RS_SAMPLER
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType RS_SCRIPT
+android.support.v8.renderscript.Element$DataType: int mID
+android.support.v8.renderscript.Element$DataType: int mSize
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType[] $VALUES
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType[] values()
+android.support.v8.renderscript.Element$DataType: android.support.v8.renderscript.Element$DataType valueOf(java.lang.String)
+android.support.v8.renderscript.Element$DataType: Element$DataType(java.lang.String,int,int,int)
+android.support.v8.renderscript.Element$DataType: void <clinit>()
+android.support.v8.renderscript.ElementThunker
+android.support.v8.renderscript.ElementThunker: android.renderscript.Element mN
+android.support.v8.renderscript.ElementThunker: android.renderscript.Element getNObj()
+android.support.v8.renderscript.ElementThunker: int getBytesSize()
+android.support.v8.renderscript.ElementThunker: int getVectorSize()
+android.support.v8.renderscript.ElementThunker: android.renderscript.Element$DataKind convertKind(android.support.v8.renderscript.Element$DataKind)
+android.support.v8.renderscript.ElementThunker: android.renderscript.Element$DataType convertType(android.support.v8.renderscript.Element$DataType)
+android.support.v8.renderscript.ElementThunker: boolean isComplex()
+android.support.v8.renderscript.ElementThunker: int getSubElementCount()
+android.support.v8.renderscript.ElementThunker: android.support.v8.renderscript.Element getSubElement(int)
+android.support.v8.renderscript.ElementThunker: java.lang.String getSubElementName(int)
+android.support.v8.renderscript.ElementThunker: int getSubElementArraySize(int)
+android.support.v8.renderscript.ElementThunker: int getSubElementOffsetBytes(int)
+android.support.v8.renderscript.ElementThunker: android.support.v8.renderscript.Element$DataType getDataType()
+android.support.v8.renderscript.ElementThunker: android.support.v8.renderscript.Element$DataKind getDataKind()
+android.support.v8.renderscript.ElementThunker: ElementThunker(android.support.v8.renderscript.RenderScript,android.renderscript.Element)
+android.support.v8.renderscript.ElementThunker: android.support.v8.renderscript.Element create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element$DataType)
+android.support.v8.renderscript.ElementThunker: android.support.v8.renderscript.Element createVector(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element$DataType,int)
+android.support.v8.renderscript.ElementThunker: android.support.v8.renderscript.Element createPixel(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element$DataType,android.support.v8.renderscript.Element$DataKind)
+android.support.v8.renderscript.ElementThunker: boolean isCompatible(android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ElementThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ElementThunker$1
+android.support.v8.renderscript.ElementThunker$1: int[] $SwitchMap$android$support$v8$renderscript$Element$DataKind
+android.support.v8.renderscript.ElementThunker$1: int[] $SwitchMap$android$support$v8$renderscript$Element$DataType
+android.support.v8.renderscript.ElementThunker$1: void <clinit>()
+android.support.v8.renderscript.ElementThunker$BuilderThunker
+android.support.v8.renderscript.ElementThunker$BuilderThunker: android.renderscript.Element$Builder mN
+android.support.v8.renderscript.ElementThunker$BuilderThunker: ElementThunker$BuilderThunker(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ElementThunker$BuilderThunker: void add(android.support.v8.renderscript.Element,java.lang.String,int)
+android.support.v8.renderscript.ElementThunker$BuilderThunker: android.support.v8.renderscript.Element create(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ExceptionThunker
+android.support.v8.renderscript.ExceptionThunker: ExceptionThunker()
+android.support.v8.renderscript.ExceptionThunker: java.lang.RuntimeException convertException(java.lang.RuntimeException)
+android.support.v8.renderscript.FieldPacker
+android.support.v8.renderscript.FieldPacker: android.renderscript.FieldPacker mN
+android.support.v8.renderscript.FieldPacker: byte[] mData
+android.support.v8.renderscript.FieldPacker: int mPos
+android.support.v8.renderscript.FieldPacker: int mLen
+android.support.v8.renderscript.FieldPacker: FieldPacker(int)
+android.support.v8.renderscript.FieldPacker: void align(int)
+android.support.v8.renderscript.FieldPacker: void reset()
+android.support.v8.renderscript.FieldPacker: void reset(int)
+android.support.v8.renderscript.FieldPacker: void skip(int)
+android.support.v8.renderscript.FieldPacker: void addI8(byte)
+android.support.v8.renderscript.FieldPacker: void addI16(short)
+android.support.v8.renderscript.FieldPacker: void addI32(int)
+android.support.v8.renderscript.FieldPacker: void addI64(long)
+android.support.v8.renderscript.FieldPacker: void addU8(short)
+android.support.v8.renderscript.FieldPacker: void addU16(int)
+android.support.v8.renderscript.FieldPacker: void addU32(long)
+android.support.v8.renderscript.FieldPacker: void addU64(long)
+android.support.v8.renderscript.FieldPacker: void addF32(float)
+android.support.v8.renderscript.FieldPacker: void addF64(double)
+android.support.v8.renderscript.FieldPacker: void addObj(android.support.v8.renderscript.BaseObj)
+android.support.v8.renderscript.FieldPacker: void addF32(android.support.v8.renderscript.Float2)
+android.support.v8.renderscript.FieldPacker: void addF32(android.support.v8.renderscript.Float3)
+android.support.v8.renderscript.FieldPacker: void addF32(android.support.v8.renderscript.Float4)
+android.support.v8.renderscript.FieldPacker: void addF64(android.support.v8.renderscript.Double2)
+android.support.v8.renderscript.FieldPacker: void addF64(android.support.v8.renderscript.Double3)
+android.support.v8.renderscript.FieldPacker: void addF64(android.support.v8.renderscript.Double4)
+android.support.v8.renderscript.FieldPacker: void addI8(android.support.v8.renderscript.Byte2)
+android.support.v8.renderscript.FieldPacker: void addI8(android.support.v8.renderscript.Byte3)
+android.support.v8.renderscript.FieldPacker: void addI8(android.support.v8.renderscript.Byte4)
+android.support.v8.renderscript.FieldPacker: void addU8(android.support.v8.renderscript.Short2)
+android.support.v8.renderscript.FieldPacker: void addU8(android.support.v8.renderscript.Short3)
+android.support.v8.renderscript.FieldPacker: void addU8(android.support.v8.renderscript.Short4)
+android.support.v8.renderscript.FieldPacker: void addI16(android.support.v8.renderscript.Short2)
+android.support.v8.renderscript.FieldPacker: void addI16(android.support.v8.renderscript.Short3)
+android.support.v8.renderscript.FieldPacker: void addI16(android.support.v8.renderscript.Short4)
+android.support.v8.renderscript.FieldPacker: void addU16(android.support.v8.renderscript.Int2)
+android.support.v8.renderscript.FieldPacker: void addU16(android.support.v8.renderscript.Int3)
+android.support.v8.renderscript.FieldPacker: void addU16(android.support.v8.renderscript.Int4)
+android.support.v8.renderscript.FieldPacker: void addI32(android.support.v8.renderscript.Int2)
+android.support.v8.renderscript.FieldPacker: void addI32(android.support.v8.renderscript.Int3)
+android.support.v8.renderscript.FieldPacker: void addI32(android.support.v8.renderscript.Int4)
+android.support.v8.renderscript.FieldPacker: void addU32(android.support.v8.renderscript.Long2)
+android.support.v8.renderscript.FieldPacker: void addU32(android.support.v8.renderscript.Long3)
+android.support.v8.renderscript.FieldPacker: void addU32(android.support.v8.renderscript.Long4)
+android.support.v8.renderscript.FieldPacker: void addI64(android.support.v8.renderscript.Long2)
+android.support.v8.renderscript.FieldPacker: void addI64(android.support.v8.renderscript.Long3)
+android.support.v8.renderscript.FieldPacker: void addI64(android.support.v8.renderscript.Long4)
+android.support.v8.renderscript.FieldPacker: void addU64(android.support.v8.renderscript.Long2)
+android.support.v8.renderscript.FieldPacker: void addU64(android.support.v8.renderscript.Long3)
+android.support.v8.renderscript.FieldPacker: void addU64(android.support.v8.renderscript.Long4)
+android.support.v8.renderscript.FieldPacker: void addMatrix(android.support.v8.renderscript.Matrix4f)
+android.support.v8.renderscript.FieldPacker: void addMatrix(android.support.v8.renderscript.Matrix3f)
+android.support.v8.renderscript.FieldPacker: void addMatrix(android.support.v8.renderscript.Matrix2f)
+android.support.v8.renderscript.FieldPacker: void addBoolean(boolean)
+android.support.v8.renderscript.FieldPacker: byte[] getData()
+android.support.v8.renderscript.Float2
+android.support.v8.renderscript.Float2: float x
+android.support.v8.renderscript.Float2: float y
+android.support.v8.renderscript.Float2: Float2()
+android.support.v8.renderscript.Float2: Float2(float,float)
+android.support.v8.renderscript.Float3
+android.support.v8.renderscript.Float3: float x
+android.support.v8.renderscript.Float3: float y
+android.support.v8.renderscript.Float3: float z
+android.support.v8.renderscript.Float3: Float3()
+android.support.v8.renderscript.Float3: Float3(float,float,float)
+android.support.v8.renderscript.Float4
+android.support.v8.renderscript.Float4: float x
+android.support.v8.renderscript.Float4: float y
+android.support.v8.renderscript.Float4: float z
+android.support.v8.renderscript.Float4: float w
+android.support.v8.renderscript.Float4: Float4()
+android.support.v8.renderscript.Float4: Float4(float,float,float,float)
+android.support.v8.renderscript.Int2
+android.support.v8.renderscript.Int2: int x
+android.support.v8.renderscript.Int2: int y
+android.support.v8.renderscript.Int2: Int2()
+android.support.v8.renderscript.Int2: Int2(int,int)
+android.support.v8.renderscript.Int3
+android.support.v8.renderscript.Int3: int x
+android.support.v8.renderscript.Int3: int y
+android.support.v8.renderscript.Int3: int z
+android.support.v8.renderscript.Int3: Int3()
+android.support.v8.renderscript.Int3: Int3(int,int,int)
+android.support.v8.renderscript.Int4
+android.support.v8.renderscript.Int4: int x
+android.support.v8.renderscript.Int4: int y
+android.support.v8.renderscript.Int4: int z
+android.support.v8.renderscript.Int4: int w
+android.support.v8.renderscript.Int4: Int4()
+android.support.v8.renderscript.Int4: Int4(int,int,int,int)
+android.support.v8.renderscript.Long2
+android.support.v8.renderscript.Long2: long x
+android.support.v8.renderscript.Long2: long y
+android.support.v8.renderscript.Long2: Long2()
+android.support.v8.renderscript.Long2: Long2(long,long)
+android.support.v8.renderscript.Long3
+android.support.v8.renderscript.Long3: long x
+android.support.v8.renderscript.Long3: long y
+android.support.v8.renderscript.Long3: long z
+android.support.v8.renderscript.Long3: Long3()
+android.support.v8.renderscript.Long3: Long3(long,long,long)
+android.support.v8.renderscript.Long4
+android.support.v8.renderscript.Long4: long x
+android.support.v8.renderscript.Long4: long y
+android.support.v8.renderscript.Long4: long z
+android.support.v8.renderscript.Long4: long w
+android.support.v8.renderscript.Long4: Long4()
+android.support.v8.renderscript.Long4: Long4(long,long,long,long)
+android.support.v8.renderscript.Matrix2f
+android.support.v8.renderscript.Matrix2f: float[] mMat
+android.support.v8.renderscript.Matrix2f: Matrix2f()
+android.support.v8.renderscript.Matrix2f: Matrix2f(float[])
+android.support.v8.renderscript.Matrix2f: float[] getArray()
+android.support.v8.renderscript.Matrix2f: float get(int,int)
+android.support.v8.renderscript.Matrix2f: void set(int,int,float)
+android.support.v8.renderscript.Matrix2f: void loadIdentity()
+android.support.v8.renderscript.Matrix2f: void load(android.support.v8.renderscript.Matrix2f)
+android.support.v8.renderscript.Matrix2f: void loadRotate(float)
+android.support.v8.renderscript.Matrix2f: void loadScale(float,float)
+android.support.v8.renderscript.Matrix2f: void loadMultiply(android.support.v8.renderscript.Matrix2f,android.support.v8.renderscript.Matrix2f)
+android.support.v8.renderscript.Matrix2f: void multiply(android.support.v8.renderscript.Matrix2f)
+android.support.v8.renderscript.Matrix2f: void rotate(float)
+android.support.v8.renderscript.Matrix2f: void scale(float,float)
+android.support.v8.renderscript.Matrix2f: void transpose()
+android.support.v8.renderscript.Matrix3f
+android.support.v8.renderscript.Matrix3f: float[] mMat
+android.support.v8.renderscript.Matrix3f: Matrix3f()
+android.support.v8.renderscript.Matrix3f: Matrix3f(float[])
+android.support.v8.renderscript.Matrix3f: float[] getArray()
+android.support.v8.renderscript.Matrix3f: float get(int,int)
+android.support.v8.renderscript.Matrix3f: void set(int,int,float)
+android.support.v8.renderscript.Matrix3f: void loadIdentity()
+android.support.v8.renderscript.Matrix3f: void load(android.support.v8.renderscript.Matrix3f)
+android.support.v8.renderscript.Matrix3f: void loadRotate(float,float,float,float)
+android.support.v8.renderscript.Matrix3f: void loadRotate(float)
+android.support.v8.renderscript.Matrix3f: void loadScale(float,float)
+android.support.v8.renderscript.Matrix3f: void loadScale(float,float,float)
+android.support.v8.renderscript.Matrix3f: void loadTranslate(float,float)
+android.support.v8.renderscript.Matrix3f: void loadMultiply(android.support.v8.renderscript.Matrix3f,android.support.v8.renderscript.Matrix3f)
+android.support.v8.renderscript.Matrix3f: void multiply(android.support.v8.renderscript.Matrix3f)
+android.support.v8.renderscript.Matrix3f: void rotate(float,float,float,float)
+android.support.v8.renderscript.Matrix3f: void rotate(float)
+android.support.v8.renderscript.Matrix3f: void scale(float,float)
+android.support.v8.renderscript.Matrix3f: void scale(float,float,float)
+android.support.v8.renderscript.Matrix3f: void translate(float,float)
+android.support.v8.renderscript.Matrix3f: void transpose()
+android.support.v8.renderscript.Matrix4f
+android.support.v8.renderscript.Matrix4f: float[] mMat
+android.support.v8.renderscript.Matrix4f: Matrix4f()
+android.support.v8.renderscript.Matrix4f: Matrix4f(float[])
+android.support.v8.renderscript.Matrix4f: float[] getArray()
+android.support.v8.renderscript.Matrix4f: float get(int,int)
+android.support.v8.renderscript.Matrix4f: void set(int,int,float)
+android.support.v8.renderscript.Matrix4f: void loadIdentity()
+android.support.v8.renderscript.Matrix4f: void load(android.support.v8.renderscript.Matrix4f)
+android.support.v8.renderscript.Matrix4f: void load(android.support.v8.renderscript.Matrix3f)
+android.support.v8.renderscript.Matrix4f: void loadRotate(float,float,float,float)
+android.support.v8.renderscript.Matrix4f: void loadScale(float,float,float)
+android.support.v8.renderscript.Matrix4f: void loadTranslate(float,float,float)
+android.support.v8.renderscript.Matrix4f: void loadMultiply(android.support.v8.renderscript.Matrix4f,android.support.v8.renderscript.Matrix4f)
+android.support.v8.renderscript.Matrix4f: void loadOrtho(float,float,float,float,float,float)
+android.support.v8.renderscript.Matrix4f: void loadOrthoWindow(int,int)
+android.support.v8.renderscript.Matrix4f: void loadFrustum(float,float,float,float,float,float)
+android.support.v8.renderscript.Matrix4f: void loadPerspective(float,float,float,float)
+android.support.v8.renderscript.Matrix4f: void loadProjectionNormalized(int,int)
+android.support.v8.renderscript.Matrix4f: void multiply(android.support.v8.renderscript.Matrix4f)
+android.support.v8.renderscript.Matrix4f: void rotate(float,float,float,float)
+android.support.v8.renderscript.Matrix4f: void scale(float,float,float)
+android.support.v8.renderscript.Matrix4f: void translate(float,float,float)
+android.support.v8.renderscript.Matrix4f: float computeCofactor(int,int)
+android.support.v8.renderscript.Matrix4f: boolean inverse()
+android.support.v8.renderscript.Matrix4f: boolean inverseTranspose()
+android.support.v8.renderscript.Matrix4f: void transpose()
+android.support.v8.renderscript.RSDriverException
+android.support.v8.renderscript.RSDriverException: RSDriverException(java.lang.String)
+android.support.v8.renderscript.RSIllegalArgumentException
+android.support.v8.renderscript.RSIllegalArgumentException: RSIllegalArgumentException(java.lang.String)
+android.support.v8.renderscript.RSInvalidStateException
+android.support.v8.renderscript.RSInvalidStateException: RSInvalidStateException(java.lang.String)
+android.support.v8.renderscript.RSRuntimeException
+android.support.v8.renderscript.RSRuntimeException: RSRuntimeException(java.lang.String)
+android.support.v8.renderscript.RenderScript
+android.support.v8.renderscript.RenderScript: java.lang.String LOG_TAG
+android.support.v8.renderscript.RenderScript: boolean DEBUG
+android.support.v8.renderscript.RenderScript: boolean LOG_ENABLED
+android.support.v8.renderscript.RenderScript: android.content.Context mApplicationContext
+android.support.v8.renderscript.RenderScript: boolean sInitialized
+android.support.v8.renderscript.RenderScript: boolean sUseGCHooks
+android.support.v8.renderscript.RenderScript: java.lang.Object sRuntime
+android.support.v8.renderscript.RenderScript: java.lang.reflect.Method registerNativeAllocation
+android.support.v8.renderscript.RenderScript: java.lang.reflect.Method registerNativeFree
+android.support.v8.renderscript.RenderScript: java.lang.Object lock
+android.support.v8.renderscript.RenderScript: boolean isNative
+android.support.v8.renderscript.RenderScript: int thunk
+android.support.v8.renderscript.RenderScript: java.lang.String CACHE_PATH
+android.support.v8.renderscript.RenderScript: java.lang.String mCachePath
+android.support.v8.renderscript.RenderScript: int mDev
+android.support.v8.renderscript.RenderScript: int mContext
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript$MessageThread mMessageThread
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_U8
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_I8
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_U16
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_I16
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_U32
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_I32
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_U64
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_I64
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_F32
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_F64
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_BOOLEAN
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_ELEMENT
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_TYPE
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_ALLOCATION
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_SAMPLER
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_SCRIPT
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_A_8
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_RGB_565
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_RGB_888
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_RGBA_5551
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_RGBA_4444
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_RGBA_8888
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_FLOAT_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_FLOAT_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_FLOAT_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_DOUBLE_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_DOUBLE_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_DOUBLE_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_UCHAR_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_UCHAR_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_UCHAR_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_CHAR_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_CHAR_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_CHAR_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_USHORT_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_USHORT_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_USHORT_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_SHORT_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_SHORT_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_SHORT_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_UINT_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_UINT_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_UINT_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_INT_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_INT_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_INT_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_ULONG_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_ULONG_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_ULONG_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_LONG_2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_LONG_3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_LONG_4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_MATRIX_4X4
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_MATRIX_3X3
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Element mElement_MATRIX_2X2
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_CLAMP_NEAREST
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_CLAMP_LINEAR
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_CLAMP_LINEAR_MIP_LINEAR
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_WRAP_NEAREST
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_WRAP_LINEAR
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_WRAP_LINEAR_MIP_LINEAR
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_MIRRORED_REPEAT_NEAREST
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_MIRRORED_REPEAT_LINEAR
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.Sampler mSampler_MIRRORED_REPEAT_LINEAR_MIP_LINEAR
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript$RSMessageHandler mMessageCallback
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript$RSErrorHandler mErrorCallback
+android.support.v8.renderscript.RenderScript: int nDeviceCreate()
+android.support.v8.renderscript.RenderScript: void nDeviceDestroy(int)
+android.support.v8.renderscript.RenderScript: void nDeviceSetConfig(int,int,int)
+android.support.v8.renderscript.RenderScript: int nContextGetUserMessage(int,int[])
+android.support.v8.renderscript.RenderScript: java.lang.String nContextGetErrorMessage(int)
+android.support.v8.renderscript.RenderScript: int nContextPeekMessage(int,int[])
+android.support.v8.renderscript.RenderScript: void nContextInitToClient(int)
+android.support.v8.renderscript.RenderScript: void nContextDeinitToClient(int)
+android.support.v8.renderscript.RenderScript: boolean shouldThunk()
+android.support.v8.renderscript.RenderScript: void setupDiskCache(java.io.File)
+android.support.v8.renderscript.RenderScript: int rsnContextCreate(int,int,int,int)
+android.support.v8.renderscript.RenderScript: int nContextCreate(int,int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnContextDestroy(int)
+android.support.v8.renderscript.RenderScript: void nContextDestroy()
+android.support.v8.renderscript.RenderScript: void rsnContextSetPriority(int,int)
+android.support.v8.renderscript.RenderScript: void nContextSetPriority(int)
+android.support.v8.renderscript.RenderScript: void rsnContextDump(int,int)
+android.support.v8.renderscript.RenderScript: void nContextDump(int)
+android.support.v8.renderscript.RenderScript: void rsnContextFinish(int)
+android.support.v8.renderscript.RenderScript: void nContextFinish()
+android.support.v8.renderscript.RenderScript: void rsnContextSendMessage(int,int,int[])
+android.support.v8.renderscript.RenderScript: void nContextSendMessage(int,int[])
+android.support.v8.renderscript.RenderScript: void rsnObjDestroy(int,int)
+android.support.v8.renderscript.RenderScript: void nObjDestroy(int)
+android.support.v8.renderscript.RenderScript: int rsnElementCreate(int,int,int,boolean,int)
+android.support.v8.renderscript.RenderScript: int nElementCreate(int,int,boolean,int)
+android.support.v8.renderscript.RenderScript: int rsnElementCreate2(int,int[],java.lang.String[],int[])
+android.support.v8.renderscript.RenderScript: int nElementCreate2(int[],java.lang.String[],int[])
+android.support.v8.renderscript.RenderScript: void rsnElementGetNativeData(int,int,int[])
+android.support.v8.renderscript.RenderScript: void nElementGetNativeData(int,int[])
+android.support.v8.renderscript.RenderScript: void rsnElementGetSubElements(int,int,int[],java.lang.String[],int[])
+android.support.v8.renderscript.RenderScript: void nElementGetSubElements(int,int[],java.lang.String[],int[])
+android.support.v8.renderscript.RenderScript: int rsnTypeCreate(int,int,int,int,int,boolean,boolean,int)
+android.support.v8.renderscript.RenderScript: int nTypeCreate(int,int,int,int,boolean,boolean,int)
+android.support.v8.renderscript.RenderScript: void rsnTypeGetNativeData(int,int,int[])
+android.support.v8.renderscript.RenderScript: void nTypeGetNativeData(int,int[])
+android.support.v8.renderscript.RenderScript: int rsnAllocationCreateTyped(int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: int nAllocationCreateTyped(int,int,int,int)
+android.support.v8.renderscript.RenderScript: int rsnAllocationCreateFromBitmap(int,int,int,android.graphics.Bitmap,int)
+android.support.v8.renderscript.RenderScript: int nAllocationCreateFromBitmap(int,int,android.graphics.Bitmap,int)
+android.support.v8.renderscript.RenderScript: int rsnAllocationCreateBitmapBackedAllocation(int,int,int,android.graphics.Bitmap,int)
+android.support.v8.renderscript.RenderScript: int nAllocationCreateBitmapBackedAllocation(int,int,android.graphics.Bitmap,int)
+android.support.v8.renderscript.RenderScript: int rsnAllocationCubeCreateFromBitmap(int,int,int,android.graphics.Bitmap,int)
+android.support.v8.renderscript.RenderScript: int nAllocationCubeCreateFromBitmap(int,int,android.graphics.Bitmap,int)
+android.support.v8.renderscript.RenderScript: int rsnAllocationCreateBitmapRef(int,int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: int nAllocationCreateBitmapRef(int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: int rsnAllocationCreateFromAssetStream(int,int,int,int)
+android.support.v8.renderscript.RenderScript: int nAllocationCreateFromAssetStream(int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationCopyToBitmap(int,int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: void nAllocationCopyToBitmap(int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: void rsnAllocationSyncAll(int,int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationSyncAll(int,int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationIoSend(int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationIoSend(int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationIoReceive(int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationIoReceive(int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationGenerateMipmaps(int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationGenerateMipmaps(int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationCopyFromBitmap(int,int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: void nAllocationCopyFromBitmap(int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData1D(int,int,int,int,int,int[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData1D(int,int,int,int,int[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData1D(int,int,int,int,int,short[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData1D(int,int,int,int,short[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData1D(int,int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData1D(int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData1D(int,int,int,int,int,float[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData1D(int,int,int,int,float[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationElementData1D(int,int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationElementData1D(int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData2D(int,int,int,int,int,int,int,int,int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationData2D(int,int,int,int,int,int,int,int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData2D(int,int,int,int,int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData2D(int,int,int,int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData2D(int,int,int,int,int,int,int,int,short[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData2D(int,int,int,int,int,int,int,short[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData2D(int,int,int,int,int,int,int,int,int[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData2D(int,int,int,int,int,int,int,int[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData2D(int,int,int,int,int,int,int,int,float[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData2D(int,int,int,int,int,int,int,float[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData2D(int,int,int,int,int,int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: void nAllocationData2D(int,int,int,int,int,android.graphics.Bitmap)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData3D(int,int,int,int,int,int,int,int,int,int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationData3D(int,int,int,int,int,int,int,int,int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData3D(int,int,int,int,int,int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData3D(int,int,int,int,int,int,int,int,byte[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData3D(int,int,int,int,int,int,int,int,int,short[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData3D(int,int,int,int,int,int,int,int,short[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData3D(int,int,int,int,int,int,int,int,int,int[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData3D(int,int,int,int,int,int,int,int,int[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationData3D(int,int,int,int,int,int,int,int,int,float[],int)
+android.support.v8.renderscript.RenderScript: void nAllocationData3D(int,int,int,int,int,int,int,int,float[],int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationRead(int,int,byte[])
+android.support.v8.renderscript.RenderScript: void nAllocationRead(int,byte[])
+android.support.v8.renderscript.RenderScript: void rsnAllocationRead(int,int,short[])
+android.support.v8.renderscript.RenderScript: void nAllocationRead(int,short[])
+android.support.v8.renderscript.RenderScript: void rsnAllocationRead(int,int,int[])
+android.support.v8.renderscript.RenderScript: void nAllocationRead(int,int[])
+android.support.v8.renderscript.RenderScript: void rsnAllocationRead(int,int,float[])
+android.support.v8.renderscript.RenderScript: void nAllocationRead(int,float[])
+android.support.v8.renderscript.RenderScript: int rsnAllocationGetType(int,int)
+android.support.v8.renderscript.RenderScript: int nAllocationGetType(int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationResize1D(int,int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationResize1D(int,int)
+android.support.v8.renderscript.RenderScript: void rsnAllocationResize2D(int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nAllocationResize2D(int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptBindAllocation(int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nScriptBindAllocation(int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptSetTimeZone(int,int,byte[])
+android.support.v8.renderscript.RenderScript: void nScriptSetTimeZone(int,byte[])
+android.support.v8.renderscript.RenderScript: void rsnScriptInvoke(int,int,int)
+android.support.v8.renderscript.RenderScript: void nScriptInvoke(int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptForEach(int,int,int,int,int,byte[])
+android.support.v8.renderscript.RenderScript: void rsnScriptForEach(int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptForEachClipped(int,int,int,int,int,byte[],int,int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptForEachClipped(int,int,int,int,int,int,int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nScriptForEach(int,int,int,int,byte[])
+android.support.v8.renderscript.RenderScript: void nScriptForEachClipped(int,int,int,int,byte[],int,int,int,int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptInvokeV(int,int,int,byte[])
+android.support.v8.renderscript.RenderScript: void nScriptInvokeV(int,int,byte[])
+android.support.v8.renderscript.RenderScript: void rsnScriptSetVarI(int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nScriptSetVarI(int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptSetVarJ(int,int,int,long)
+android.support.v8.renderscript.RenderScript: void nScriptSetVarJ(int,int,long)
+android.support.v8.renderscript.RenderScript: void rsnScriptSetVarF(int,int,int,float)
+android.support.v8.renderscript.RenderScript: void nScriptSetVarF(int,int,float)
+android.support.v8.renderscript.RenderScript: void rsnScriptSetVarD(int,int,int,double)
+android.support.v8.renderscript.RenderScript: void nScriptSetVarD(int,int,double)
+android.support.v8.renderscript.RenderScript: void rsnScriptSetVarV(int,int,int,byte[])
+android.support.v8.renderscript.RenderScript: void nScriptSetVarV(int,int,byte[])
+android.support.v8.renderscript.RenderScript: void rsnScriptSetVarVE(int,int,int,byte[],int,int[])
+android.support.v8.renderscript.RenderScript: void nScriptSetVarVE(int,int,byte[],int,int[])
+android.support.v8.renderscript.RenderScript: void rsnScriptSetVarObj(int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nScriptSetVarObj(int,int,int)
+android.support.v8.renderscript.RenderScript: int rsnScriptCCreate(int,java.lang.String,java.lang.String,byte[],int)
+android.support.v8.renderscript.RenderScript: int nScriptCCreate(java.lang.String,java.lang.String,byte[],int)
+android.support.v8.renderscript.RenderScript: int rsnScriptIntrinsicCreate(int,int,int)
+android.support.v8.renderscript.RenderScript: int nScriptIntrinsicCreate(int,int)
+android.support.v8.renderscript.RenderScript: int rsnScriptKernelIDCreate(int,int,int,int)
+android.support.v8.renderscript.RenderScript: int nScriptKernelIDCreate(int,int,int)
+android.support.v8.renderscript.RenderScript: int rsnScriptFieldIDCreate(int,int,int)
+android.support.v8.renderscript.RenderScript: int nScriptFieldIDCreate(int,int)
+android.support.v8.renderscript.RenderScript: int rsnScriptGroupCreate(int,int[],int[],int[],int[],int[])
+android.support.v8.renderscript.RenderScript: int nScriptGroupCreate(int[],int[],int[],int[],int[])
+android.support.v8.renderscript.RenderScript: void rsnScriptGroupSetInput(int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nScriptGroupSetInput(int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptGroupSetOutput(int,int,int,int)
+android.support.v8.renderscript.RenderScript: void nScriptGroupSetOutput(int,int,int)
+android.support.v8.renderscript.RenderScript: void rsnScriptGroupExecute(int,int)
+android.support.v8.renderscript.RenderScript: void nScriptGroupExecute(int)
+android.support.v8.renderscript.RenderScript: int rsnSamplerCreate(int,int,int,int,int,int,float)
+android.support.v8.renderscript.RenderScript: int nSamplerCreate(int,int,int,int,int,float)
+android.support.v8.renderscript.RenderScript: void setMessageHandler(android.support.v8.renderscript.RenderScript$RSMessageHandler)
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript$RSMessageHandler getMessageHandler()
+android.support.v8.renderscript.RenderScript: void sendMessage(int,int[])
+android.support.v8.renderscript.RenderScript: void setErrorHandler(android.support.v8.renderscript.RenderScript$RSErrorHandler)
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript$RSErrorHandler getErrorHandler()
+android.support.v8.renderscript.RenderScript: void validate()
+android.support.v8.renderscript.RenderScript: void setPriority(android.support.v8.renderscript.RenderScript$Priority)
+android.support.v8.renderscript.RenderScript: RenderScript(android.content.Context)
+android.support.v8.renderscript.RenderScript: android.content.Context getApplicationContext()
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript create(android.content.Context,int)
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript create(android.content.Context,int,android.support.v8.renderscript.RenderScript$ContextType)
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript create(android.content.Context)
+android.support.v8.renderscript.RenderScript: android.support.v8.renderscript.RenderScript create(android.content.Context,android.support.v8.renderscript.RenderScript$ContextType)
+android.support.v8.renderscript.RenderScript: void contextDump()
+android.support.v8.renderscript.RenderScript: void finish()
+android.support.v8.renderscript.RenderScript: void destroy()
+android.support.v8.renderscript.RenderScript: boolean isAlive()
+android.support.v8.renderscript.RenderScript: int safeID(android.support.v8.renderscript.BaseObj)
+android.support.v8.renderscript.RenderScript: void <clinit>()
+android.support.v8.renderscript.RenderScript$1
+android.support.v8.renderscript.RenderScript$1: android.support.v8.renderscript.RenderScript this$0
+android.support.v8.renderscript.RenderScript$1: RenderScript$1(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.RenderScript$1: void run()
+android.support.v8.renderscript.RenderScript$2
+android.support.v8.renderscript.RenderScript$2: android.support.v8.renderscript.RenderScript this$0
+android.support.v8.renderscript.RenderScript$2: RenderScript$2(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.RenderScript$2: void run()
+android.support.v8.renderscript.RenderScript$ContextType
+android.support.v8.renderscript.RenderScript$ContextType: android.support.v8.renderscript.RenderScript$ContextType NORMAL
+android.support.v8.renderscript.RenderScript$ContextType: android.support.v8.renderscript.RenderScript$ContextType DEBUG
+android.support.v8.renderscript.RenderScript$ContextType: android.support.v8.renderscript.RenderScript$ContextType PROFILE
+android.support.v8.renderscript.RenderScript$ContextType: int mID
+android.support.v8.renderscript.RenderScript$ContextType: android.support.v8.renderscript.RenderScript$ContextType[] $VALUES
+android.support.v8.renderscript.RenderScript$ContextType: android.support.v8.renderscript.RenderScript$ContextType[] values()
+android.support.v8.renderscript.RenderScript$ContextType: android.support.v8.renderscript.RenderScript$ContextType valueOf(java.lang.String)
+android.support.v8.renderscript.RenderScript$ContextType: RenderScript$ContextType(java.lang.String,int,int)
+android.support.v8.renderscript.RenderScript$ContextType: void <clinit>()
+android.support.v8.renderscript.RenderScript$MessageThread
+android.support.v8.renderscript.RenderScript$MessageThread: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.RenderScript$MessageThread: boolean mRun
+android.support.v8.renderscript.RenderScript$MessageThread: int[] mAuxData
+android.support.v8.renderscript.RenderScript$MessageThread: int RS_MESSAGE_TO_CLIENT_NONE
+android.support.v8.renderscript.RenderScript$MessageThread: int RS_MESSAGE_TO_CLIENT_EXCEPTION
+android.support.v8.renderscript.RenderScript$MessageThread: int RS_MESSAGE_TO_CLIENT_RESIZE
+android.support.v8.renderscript.RenderScript$MessageThread: int RS_MESSAGE_TO_CLIENT_ERROR
+android.support.v8.renderscript.RenderScript$MessageThread: int RS_MESSAGE_TO_CLIENT_USER
+android.support.v8.renderscript.RenderScript$MessageThread: int RS_ERROR_FATAL_UNKNOWN
+android.support.v8.renderscript.RenderScript$MessageThread: RenderScript$MessageThread(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.RenderScript$MessageThread: void run()
+android.support.v8.renderscript.RenderScript$Priority
+android.support.v8.renderscript.RenderScript$Priority: android.support.v8.renderscript.RenderScript$Priority LOW
+android.support.v8.renderscript.RenderScript$Priority: android.support.v8.renderscript.RenderScript$Priority NORMAL
+android.support.v8.renderscript.RenderScript$Priority: int mID
+android.support.v8.renderscript.RenderScript$Priority: android.support.v8.renderscript.RenderScript$Priority[] $VALUES
+android.support.v8.renderscript.RenderScript$Priority: android.support.v8.renderscript.RenderScript$Priority[] values()
+android.support.v8.renderscript.RenderScript$Priority: android.support.v8.renderscript.RenderScript$Priority valueOf(java.lang.String)
+android.support.v8.renderscript.RenderScript$Priority: RenderScript$Priority(java.lang.String,int,int)
+android.support.v8.renderscript.RenderScript$Priority: void <clinit>()
+android.support.v8.renderscript.RenderScript$RSErrorHandler
+android.support.v8.renderscript.RenderScript$RSErrorHandler: java.lang.String mErrorMessage
+android.support.v8.renderscript.RenderScript$RSErrorHandler: int mErrorNum
+android.support.v8.renderscript.RenderScript$RSErrorHandler: RenderScript$RSErrorHandler()
+android.support.v8.renderscript.RenderScript$RSErrorHandler: void run()
+android.support.v8.renderscript.RenderScript$RSMessageHandler
+android.support.v8.renderscript.RenderScript$RSMessageHandler: int[] mData
+android.support.v8.renderscript.RenderScript$RSMessageHandler: int mID
+android.support.v8.renderscript.RenderScript$RSMessageHandler: int mLength
+android.support.v8.renderscript.RenderScript$RSMessageHandler: RenderScript$RSMessageHandler()
+android.support.v8.renderscript.RenderScript$RSMessageHandler: void run()
+android.support.v8.renderscript.RenderScriptThunker
+android.support.v8.renderscript.RenderScriptThunker: android.renderscript.RenderScript mN
+android.support.v8.renderscript.RenderScriptThunker: void validate()
+android.support.v8.renderscript.RenderScriptThunker: void setPriority(android.support.v8.renderscript.RenderScript$Priority)
+android.support.v8.renderscript.RenderScriptThunker: RenderScriptThunker(android.content.Context)
+android.support.v8.renderscript.RenderScriptThunker: android.support.v8.renderscript.RenderScript create(android.content.Context,int)
+android.support.v8.renderscript.RenderScriptThunker: void contextDump()
+android.support.v8.renderscript.RenderScriptThunker: void finish()
+android.support.v8.renderscript.RenderScriptThunker: void destroy()
+android.support.v8.renderscript.Sampler
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value mMin
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value mMag
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value mWrapS
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value mWrapT
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value mWrapR
+android.support.v8.renderscript.Sampler: float mAniso
+android.support.v8.renderscript.Sampler: Sampler(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value getMinification()
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value getMagnification()
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value getWrapS()
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler$Value getWrapT()
+android.support.v8.renderscript.Sampler: float getAnisotropy()
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler CLAMP_NEAREST(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler CLAMP_LINEAR(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler CLAMP_LINEAR_MIP_LINEAR(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler WRAP_NEAREST(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler WRAP_LINEAR(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler WRAP_LINEAR_MIP_LINEAR(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler MIRRORED_REPEAT_NEAREST(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler: android.support.v8.renderscript.Sampler MIRRORED_REPEAT_LINEAR(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler$Builder
+android.support.v8.renderscript.Sampler$Builder: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.Sampler$Builder: android.support.v8.renderscript.Sampler$Value mMin
+android.support.v8.renderscript.Sampler$Builder: android.support.v8.renderscript.Sampler$Value mMag
+android.support.v8.renderscript.Sampler$Builder: android.support.v8.renderscript.Sampler$Value mWrapS
+android.support.v8.renderscript.Sampler$Builder: android.support.v8.renderscript.Sampler$Value mWrapT
+android.support.v8.renderscript.Sampler$Builder: android.support.v8.renderscript.Sampler$Value mWrapR
+android.support.v8.renderscript.Sampler$Builder: float mAniso
+android.support.v8.renderscript.Sampler$Builder: Sampler$Builder(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Sampler$Builder: void setMinification(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.Sampler$Builder: void setMagnification(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.Sampler$Builder: void setWrapS(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.Sampler$Builder: void setWrapT(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.Sampler$Builder: void setAnisotropy(float)
+android.support.v8.renderscript.Sampler$Builder: android.support.v8.renderscript.Sampler create()
+android.support.v8.renderscript.Sampler$Value
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value NEAREST
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value LINEAR
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value LINEAR_MIP_LINEAR
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value LINEAR_MIP_NEAREST
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value WRAP
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value CLAMP
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value MIRRORED_REPEAT
+android.support.v8.renderscript.Sampler$Value: int mID
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value[] $VALUES
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value[] values()
+android.support.v8.renderscript.Sampler$Value: android.support.v8.renderscript.Sampler$Value valueOf(java.lang.String)
+android.support.v8.renderscript.Sampler$Value: Sampler$Value(java.lang.String,int,int)
+android.support.v8.renderscript.Sampler$Value: void <clinit>()
+android.support.v8.renderscript.SamplerThunker
+android.support.v8.renderscript.SamplerThunker: android.renderscript.Sampler mN
+android.support.v8.renderscript.SamplerThunker: SamplerThunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.SamplerThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.SamplerThunker: android.renderscript.Sampler$Value convertValue(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.SamplerThunker$1
+android.support.v8.renderscript.SamplerThunker$1: int[] $SwitchMap$android$support$v8$renderscript$Sampler$Value
+android.support.v8.renderscript.SamplerThunker$1: void <clinit>()
+android.support.v8.renderscript.SamplerThunker$Builder
+android.support.v8.renderscript.SamplerThunker$Builder: android.support.v8.renderscript.RenderScriptThunker mRS
+android.support.v8.renderscript.SamplerThunker$Builder: android.support.v8.renderscript.Sampler$Value mMin
+android.support.v8.renderscript.SamplerThunker$Builder: android.support.v8.renderscript.Sampler$Value mMag
+android.support.v8.renderscript.SamplerThunker$Builder: android.support.v8.renderscript.Sampler$Value mWrapS
+android.support.v8.renderscript.SamplerThunker$Builder: android.support.v8.renderscript.Sampler$Value mWrapT
+android.support.v8.renderscript.SamplerThunker$Builder: android.support.v8.renderscript.Sampler$Value mWrapR
+android.support.v8.renderscript.SamplerThunker$Builder: float mAniso
+android.support.v8.renderscript.SamplerThunker$Builder: SamplerThunker$Builder(android.support.v8.renderscript.RenderScriptThunker)
+android.support.v8.renderscript.SamplerThunker$Builder: void setMinification(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.SamplerThunker$Builder: void setMagnification(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.SamplerThunker$Builder: void setWrapS(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.SamplerThunker$Builder: void setWrapT(android.support.v8.renderscript.Sampler$Value)
+android.support.v8.renderscript.SamplerThunker$Builder: void setAnisotropy(float)
+android.support.v8.renderscript.SamplerThunker$Builder: android.support.v8.renderscript.Sampler create()
+android.support.v8.renderscript.Script
+android.support.v8.renderscript.Script: android.support.v8.renderscript.ScriptCThunker mT
+android.support.v8.renderscript.Script: android.util.SparseArray mKIDs
+android.support.v8.renderscript.Script: android.util.SparseArray mFIDs
+android.support.v8.renderscript.Script: android.renderscript.Script getNObj()
+android.support.v8.renderscript.Script: android.support.v8.renderscript.Script$KernelID createKernelID(int,int,android.support.v8.renderscript.Element,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.Script: android.support.v8.renderscript.Script$FieldID createFieldID(int,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.Script: void invoke(int)
+android.support.v8.renderscript.Script: void invoke(int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.Script: void bindAllocation(android.support.v8.renderscript.Allocation,int)
+android.support.v8.renderscript.Script: void setTimeZone(java.lang.String)
+android.support.v8.renderscript.Script: void forEach(int,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.Script: void forEach(int,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.FieldPacker,android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.Script: Script(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Script: void setVar(int,float)
+android.support.v8.renderscript.Script: void setVar(int,double)
+android.support.v8.renderscript.Script: void setVar(int,int)
+android.support.v8.renderscript.Script: void setVar(int,long)
+android.support.v8.renderscript.Script: void setVar(int,boolean)
+android.support.v8.renderscript.Script: void setVar(int,android.support.v8.renderscript.BaseObj)
+android.support.v8.renderscript.Script: void setVar(int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.Script: void setVar(int,android.support.v8.renderscript.FieldPacker,android.support.v8.renderscript.Element,int[])
+android.support.v8.renderscript.Script: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.Script$Builder
+android.support.v8.renderscript.Script$Builder: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.Script$Builder: Script$Builder(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Script$FieldBase
+android.support.v8.renderscript.Script$FieldBase: android.support.v8.renderscript.Element mElement
+android.support.v8.renderscript.Script$FieldBase: android.support.v8.renderscript.Allocation mAllocation
+android.support.v8.renderscript.Script$FieldBase: void init(android.support.v8.renderscript.RenderScript,int)
+android.support.v8.renderscript.Script$FieldBase: void init(android.support.v8.renderscript.RenderScript,int,int)
+android.support.v8.renderscript.Script$FieldBase: Script$FieldBase()
+android.support.v8.renderscript.Script$FieldBase: android.support.v8.renderscript.Element getElement()
+android.support.v8.renderscript.Script$FieldBase: android.support.v8.renderscript.Type getType()
+android.support.v8.renderscript.Script$FieldBase: android.support.v8.renderscript.Allocation getAllocation()
+android.support.v8.renderscript.Script$FieldBase: void updateAllocation()
+android.support.v8.renderscript.Script$FieldID
+android.support.v8.renderscript.Script$FieldID: android.renderscript.Script$FieldID mN
+android.support.v8.renderscript.Script$FieldID: android.support.v8.renderscript.Script mScript
+android.support.v8.renderscript.Script$FieldID: int mSlot
+android.support.v8.renderscript.Script$FieldID: Script$FieldID(int,android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Script,int)
+android.support.v8.renderscript.Script$KernelID
+android.support.v8.renderscript.Script$KernelID: android.renderscript.Script$KernelID mN
+android.support.v8.renderscript.Script$KernelID: android.support.v8.renderscript.Script mScript
+android.support.v8.renderscript.Script$KernelID: int mSlot
+android.support.v8.renderscript.Script$KernelID: int mSig
+android.support.v8.renderscript.Script$KernelID: Script$KernelID(int,android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Script,int,int)
+android.support.v8.renderscript.Script$LaunchOptions
+android.support.v8.renderscript.Script$LaunchOptions: int xstart
+android.support.v8.renderscript.Script$LaunchOptions: int ystart
+android.support.v8.renderscript.Script$LaunchOptions: int xend
+android.support.v8.renderscript.Script$LaunchOptions: int yend
+android.support.v8.renderscript.Script$LaunchOptions: int zstart
+android.support.v8.renderscript.Script$LaunchOptions: int zend
+android.support.v8.renderscript.Script$LaunchOptions: int strategy
+android.support.v8.renderscript.Script$LaunchOptions: Script$LaunchOptions()
+android.support.v8.renderscript.Script$LaunchOptions: android.support.v8.renderscript.Script$LaunchOptions setX(int,int)
+android.support.v8.renderscript.Script$LaunchOptions: android.support.v8.renderscript.Script$LaunchOptions setY(int,int)
+android.support.v8.renderscript.Script$LaunchOptions: android.support.v8.renderscript.Script$LaunchOptions setZ(int,int)
+android.support.v8.renderscript.Script$LaunchOptions: int getXStart()
+android.support.v8.renderscript.Script$LaunchOptions: int getXEnd()
+android.support.v8.renderscript.Script$LaunchOptions: int getYStart()
+android.support.v8.renderscript.Script$LaunchOptions: int getYEnd()
+android.support.v8.renderscript.Script$LaunchOptions: int getZStart()
+android.support.v8.renderscript.Script$LaunchOptions: int getZEnd()
+android.support.v8.renderscript.Script$LaunchOptions: int access$000(android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.Script$LaunchOptions: int access$100(android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.Script$LaunchOptions: int access$200(android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.Script$LaunchOptions: int access$300(android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.Script$LaunchOptions: int access$400(android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.Script$LaunchOptions: int access$500(android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.ScriptC
+android.support.v8.renderscript.ScriptC: java.lang.String TAG
+android.support.v8.renderscript.ScriptC: ScriptC(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptC: ScriptC(android.support.v8.renderscript.RenderScript,android.content.res.Resources,int)
+android.support.v8.renderscript.ScriptC: int internalCreate(android.support.v8.renderscript.RenderScript,android.content.res.Resources,int)
+android.support.v8.renderscript.ScriptCThunker
+android.support.v8.renderscript.ScriptCThunker: java.lang.String TAG
+android.support.v8.renderscript.ScriptCThunker: ScriptCThunker(android.support.v8.renderscript.RenderScriptThunker,android.content.res.Resources,int)
+android.support.v8.renderscript.ScriptCThunker: android.renderscript.Script$KernelID thunkCreateKernelID(int,int,android.support.v8.renderscript.Element,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptCThunker: void thunkInvoke(int)
+android.support.v8.renderscript.ScriptCThunker: void thunkBindAllocation(android.support.v8.renderscript.Allocation,int)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetTimeZone(java.lang.String)
+android.support.v8.renderscript.ScriptCThunker: void thunkInvoke(int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.ScriptCThunker: void thunkForEach(int,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.ScriptCThunker: void thunkForEach(int,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.FieldPacker,android.support.v8.renderscript.Script$LaunchOptions)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,float)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,double)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,int)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,long)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,boolean)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,android.support.v8.renderscript.BaseObj)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,android.support.v8.renderscript.FieldPacker)
+android.support.v8.renderscript.ScriptCThunker: void thunkSetVar(int,android.support.v8.renderscript.FieldPacker,android.support.v8.renderscript.Element,int[])
+android.support.v8.renderscript.ScriptCThunker: android.renderscript.Script$FieldID thunkCreateFieldID(int,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptGroup
+android.support.v8.renderscript.ScriptGroup: android.support.v8.renderscript.ScriptGroup$IO[] mOutputs
+android.support.v8.renderscript.ScriptGroup: android.support.v8.renderscript.ScriptGroup$IO[] mInputs
+android.support.v8.renderscript.ScriptGroup: ScriptGroup(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptGroup: void setInput(android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptGroup: void setOutput(android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptGroup: void execute()
+android.support.v8.renderscript.ScriptGroup$Builder
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.ScriptGroup$Builder: java.util.ArrayList mNodes
+android.support.v8.renderscript.ScriptGroup$Builder: java.util.ArrayList mLines
+android.support.v8.renderscript.ScriptGroup$Builder: int mKernelCount
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.ScriptGroupThunker$Builder mT
+android.support.v8.renderscript.ScriptGroup$Builder: ScriptGroup$Builder(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptGroup$Builder: void validateCycle(android.support.v8.renderscript.ScriptGroup$Node,android.support.v8.renderscript.ScriptGroup$Node)
+android.support.v8.renderscript.ScriptGroup$Builder: void mergeDAGs(int,int)
+android.support.v8.renderscript.ScriptGroup$Builder: void validateDAGRecurse(android.support.v8.renderscript.ScriptGroup$Node,int)
+android.support.v8.renderscript.ScriptGroup$Builder: void validateDAG()
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.ScriptGroup$Node findNode(android.support.v8.renderscript.Script)
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.ScriptGroup$Node findNode(android.support.v8.renderscript.Script$KernelID)
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.ScriptGroup$Builder addKernel(android.support.v8.renderscript.Script$KernelID)
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.ScriptGroup$Builder addConnection(android.support.v8.renderscript.Type,android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Script$FieldID)
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.ScriptGroup$Builder addConnection(android.support.v8.renderscript.Type,android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Script$KernelID)
+android.support.v8.renderscript.ScriptGroup$Builder: android.support.v8.renderscript.ScriptGroup create()
+android.support.v8.renderscript.ScriptGroup$ConnectLine
+android.support.v8.renderscript.ScriptGroup$ConnectLine: android.support.v8.renderscript.Script$FieldID mToF
+android.support.v8.renderscript.ScriptGroup$ConnectLine: android.support.v8.renderscript.Script$KernelID mToK
+android.support.v8.renderscript.ScriptGroup$ConnectLine: android.support.v8.renderscript.Script$KernelID mFrom
+android.support.v8.renderscript.ScriptGroup$ConnectLine: android.support.v8.renderscript.Type mAllocationType
+android.support.v8.renderscript.ScriptGroup$ConnectLine: ScriptGroup$ConnectLine(android.support.v8.renderscript.Type,android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Script$KernelID)
+android.support.v8.renderscript.ScriptGroup$ConnectLine: ScriptGroup$ConnectLine(android.support.v8.renderscript.Type,android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Script$FieldID)
+android.support.v8.renderscript.ScriptGroup$IO
+android.support.v8.renderscript.ScriptGroup$IO: android.support.v8.renderscript.Script$KernelID mKID
+android.support.v8.renderscript.ScriptGroup$IO: android.support.v8.renderscript.Allocation mAllocation
+android.support.v8.renderscript.ScriptGroup$IO: ScriptGroup$IO(android.support.v8.renderscript.Script$KernelID)
+android.support.v8.renderscript.ScriptGroup$Node
+android.support.v8.renderscript.ScriptGroup$Node: android.support.v8.renderscript.Script mScript
+android.support.v8.renderscript.ScriptGroup$Node: java.util.ArrayList mKernels
+android.support.v8.renderscript.ScriptGroup$Node: java.util.ArrayList mInputs
+android.support.v8.renderscript.ScriptGroup$Node: java.util.ArrayList mOutputs
+android.support.v8.renderscript.ScriptGroup$Node: int dagNumber
+android.support.v8.renderscript.ScriptGroup$Node: android.support.v8.renderscript.ScriptGroup$Node mNext
+android.support.v8.renderscript.ScriptGroup$Node: ScriptGroup$Node(android.support.v8.renderscript.Script)
+android.support.v8.renderscript.ScriptGroupThunker
+android.support.v8.renderscript.ScriptGroupThunker: android.renderscript.ScriptGroup mN
+android.support.v8.renderscript.ScriptGroupThunker: android.renderscript.ScriptGroup getNObj()
+android.support.v8.renderscript.ScriptGroupThunker: ScriptGroupThunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptGroupThunker: void setInput(android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptGroupThunker: void setOutput(android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptGroupThunker: void execute()
+android.support.v8.renderscript.ScriptGroupThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptGroupThunker$Builder
+android.support.v8.renderscript.ScriptGroupThunker$Builder: android.renderscript.ScriptGroup$Builder bN
+android.support.v8.renderscript.ScriptGroupThunker$Builder: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.ScriptGroupThunker$Builder: ScriptGroupThunker$Builder(android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptGroupThunker$Builder: android.support.v8.renderscript.ScriptGroupThunker$Builder addKernel(android.support.v8.renderscript.Script$KernelID)
+android.support.v8.renderscript.ScriptGroupThunker$Builder: android.support.v8.renderscript.ScriptGroupThunker$Builder addConnection(android.support.v8.renderscript.Type,android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Script$FieldID)
+android.support.v8.renderscript.ScriptGroupThunker$Builder: android.support.v8.renderscript.ScriptGroupThunker$Builder addConnection(android.support.v8.renderscript.Type,android.support.v8.renderscript.Script$KernelID,android.support.v8.renderscript.Script$KernelID)
+android.support.v8.renderscript.ScriptGroupThunker$Builder: android.support.v8.renderscript.ScriptGroupThunker create()
+android.support.v8.renderscript.ScriptIntrinsic
+android.support.v8.renderscript.ScriptIntrinsic: ScriptIntrinsic(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsic3DLUT
+android.support.v8.renderscript.ScriptIntrinsic3DLUT: android.support.v8.renderscript.Allocation mLUT
+android.support.v8.renderscript.ScriptIntrinsic3DLUT: android.support.v8.renderscript.Element mElement
+android.support.v8.renderscript.ScriptIntrinsic3DLUT: ScriptIntrinsic3DLUT(int,android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsic3DLUT: android.support.v8.renderscript.ScriptIntrinsic3DLUT create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsic3DLUT: void setLUT(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsic3DLUT: void forEach(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsic3DLUT: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: android.renderscript.ScriptIntrinsic3DLUT mN
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: android.renderscript.ScriptIntrinsic3DLUT getNObj()
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: ScriptIntrinsic3DLUTThunker(int,android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: void setLUT(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: void forEach(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsic3DLUTThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptIntrinsicBlend
+android.support.v8.renderscript.ScriptIntrinsicBlend: ScriptIntrinsicBlend(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.ScriptIntrinsicBlend create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicBlend: void blend(int,android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachClear(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDClear()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachSrc(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDSrc()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachDst(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDDst()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachSrcOver(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDSrcOver()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachDstOver(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDDstOver()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachSrcIn(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDSrcIn()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachDstIn(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDDstIn()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachSrcOut(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDSrcOut()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachDstOut(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDDstOut()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachSrcAtop(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDSrcAtop()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachDstAtop(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDDstAtop()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachXor(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDXor()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachMultiply(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDMultiply()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachAdd(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDAdd()
+android.support.v8.renderscript.ScriptIntrinsicBlend: void forEachSubtract(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlend: android.support.v8.renderscript.Script$KernelID getKernelIDSubtract()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.renderscript.ScriptIntrinsicBlend mN
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.renderscript.ScriptIntrinsicBlend getNObj()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: ScriptIntrinsicBlendThunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.ScriptIntrinsicBlendThunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachClear(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDClear()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachSrc(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDSrc()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachDst(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDDst()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachSrcOver(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDSrcOver()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachDstOver(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDDstOver()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachSrcIn(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDSrcIn()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachDstIn(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDDstIn()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachSrcOut(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDSrcOut()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachDstOut(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDDstOut()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachSrcAtop(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDSrcAtop()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachDstAtop(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDDstAtop()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachXor(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDXor()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachMultiply(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDMultiply()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachAdd(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDAdd()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: void forEachSubtract(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.support.v8.renderscript.Script$KernelID getKernelIDSubtract()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsicBlendThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptIntrinsicBlur
+android.support.v8.renderscript.ScriptIntrinsicBlur: float[] mValues
+android.support.v8.renderscript.ScriptIntrinsicBlur: android.support.v8.renderscript.Allocation mInput
+android.support.v8.renderscript.ScriptIntrinsicBlur: ScriptIntrinsicBlur(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicBlur: android.support.v8.renderscript.ScriptIntrinsicBlur create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicBlur: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlur: void setRadius(float)
+android.support.v8.renderscript.ScriptIntrinsicBlur: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlur: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicBlur: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: android.renderscript.ScriptIntrinsicBlur mN
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: android.renderscript.ScriptIntrinsicBlur getNObj()
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: ScriptIntrinsicBlurThunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: android.support.v8.renderscript.ScriptIntrinsicBlurThunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: void setRadius(float)
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsicBlurThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: android.support.v8.renderscript.Matrix4f mMatrix
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: android.support.v8.renderscript.Allocation mInput
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: ScriptIntrinsicColorMatrix(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: android.support.v8.renderscript.ScriptIntrinsicColorMatrix create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: void setMatrix()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: void setColorMatrix(android.support.v8.renderscript.Matrix4f)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: void setColorMatrix(android.support.v8.renderscript.Matrix3f)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: void setGreyscale()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: void setYUVtoRGB()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: void setRGBtoYUV()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: void forEach(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrix: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: android.renderscript.ScriptIntrinsicColorMatrix mN
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: android.renderscript.ScriptIntrinsicColorMatrix getNObj()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: ScriptIntrinsicColorMatrixThunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: void setColorMatrix(android.support.v8.renderscript.Matrix4f)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: void setColorMatrix(android.support.v8.renderscript.Matrix3f)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: void setGreyscale()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: void setYUVtoRGB()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: void setRGBtoYUV()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: void forEach(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsicColorMatrixThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: float[] mValues
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: android.support.v8.renderscript.Allocation mInput
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: ScriptIntrinsicConvolve3x3(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: android.support.v8.renderscript.ScriptIntrinsicConvolve3x3 create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: void setCoefficients(float[])
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: android.renderscript.ScriptIntrinsicConvolve3x3 mN
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: android.renderscript.ScriptIntrinsicConvolve3x3 getNObj()
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: ScriptIntrinsicConvolve3x3Thunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: void setCoefficients(float[])
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsicConvolve3x3Thunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: float[] mValues
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: android.support.v8.renderscript.Allocation mInput
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: ScriptIntrinsicConvolve5x5(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: android.support.v8.renderscript.ScriptIntrinsicConvolve5x5 create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: void setCoefficients(float[])
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: android.renderscript.ScriptIntrinsicConvolve5x5 mN
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: android.renderscript.ScriptIntrinsicConvolve5x5 getNObj()
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: ScriptIntrinsicConvolve5x5Thunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: void setCoefficients(float[])
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsicConvolve5x5Thunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptIntrinsicLUT
+android.support.v8.renderscript.ScriptIntrinsicLUT: android.support.v8.renderscript.Matrix4f mMatrix
+android.support.v8.renderscript.ScriptIntrinsicLUT: android.support.v8.renderscript.Allocation mTables
+android.support.v8.renderscript.ScriptIntrinsicLUT: byte[] mCache
+android.support.v8.renderscript.ScriptIntrinsicLUT: boolean mDirty
+android.support.v8.renderscript.ScriptIntrinsicLUT: ScriptIntrinsicLUT(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicLUT: android.support.v8.renderscript.ScriptIntrinsicLUT create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicLUT: void validate(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUT: void setRed(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUT: void setGreen(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUT: void setBlue(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUT: void setAlpha(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUT: void forEach(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicLUT: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: android.renderscript.ScriptIntrinsicLUT mN
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: android.renderscript.ScriptIntrinsicLUT getNObj()
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: ScriptIntrinsicLUTThunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: android.support.v8.renderscript.ScriptIntrinsicLUTThunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: void setRed(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: void setGreen(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: void setBlue(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: void setAlpha(int,int)
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: void forEach(android.support.v8.renderscript.Allocation,android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsicLUTThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB: android.support.v8.renderscript.Allocation mInput
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB: ScriptIntrinsicYuvToRGB(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB: android.support.v8.renderscript.ScriptIntrinsicYuvToRGB create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGB: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: android.renderscript.ScriptIntrinsicYuvToRGB mN
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: android.renderscript.ScriptIntrinsicYuvToRGB getNObj()
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: ScriptIntrinsicYuvToRGBThunker(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: void setInput(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: void forEach(android.support.v8.renderscript.Allocation)
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: android.support.v8.renderscript.Script$KernelID getKernelID()
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: android.support.v8.renderscript.Script$FieldID getFieldID_Input()
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: android.renderscript.Script getNObj()
+android.support.v8.renderscript.ScriptIntrinsicYuvToRGBThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.Short2
+android.support.v8.renderscript.Short2: short x
+android.support.v8.renderscript.Short2: short y
+android.support.v8.renderscript.Short2: Short2()
+android.support.v8.renderscript.Short2: Short2(short,short)
+android.support.v8.renderscript.Short3
+android.support.v8.renderscript.Short3: short x
+android.support.v8.renderscript.Short3: short y
+android.support.v8.renderscript.Short3: short z
+android.support.v8.renderscript.Short3: Short3()
+android.support.v8.renderscript.Short3: Short3(short,short,short)
+android.support.v8.renderscript.Short4
+android.support.v8.renderscript.Short4: short x
+android.support.v8.renderscript.Short4: short y
+android.support.v8.renderscript.Short4: short z
+android.support.v8.renderscript.Short4: short w
+android.support.v8.renderscript.Short4: Short4()
+android.support.v8.renderscript.Short4: Short4(short,short,short,short)
+android.support.v8.renderscript.Type
+android.support.v8.renderscript.Type: int mDimX
+android.support.v8.renderscript.Type: int mDimY
+android.support.v8.renderscript.Type: int mDimZ
+android.support.v8.renderscript.Type: boolean mDimMipmaps
+android.support.v8.renderscript.Type: boolean mDimFaces
+android.support.v8.renderscript.Type: int mDimYuv
+android.support.v8.renderscript.Type: int mElementCount
+android.support.v8.renderscript.Type: android.support.v8.renderscript.Element mElement
+android.support.v8.renderscript.Type: android.support.v8.renderscript.Element getElement()
+android.support.v8.renderscript.Type: int getX()
+android.support.v8.renderscript.Type: int getY()
+android.support.v8.renderscript.Type: int getZ()
+android.support.v8.renderscript.Type: int getYuv()
+android.support.v8.renderscript.Type: boolean hasMipmaps()
+android.support.v8.renderscript.Type: boolean hasFaces()
+android.support.v8.renderscript.Type: int getCount()
+android.support.v8.renderscript.Type: void calcElementCount()
+android.support.v8.renderscript.Type: Type(int,android.support.v8.renderscript.RenderScript)
+android.support.v8.renderscript.Type$Builder
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.RenderScript mRS
+android.support.v8.renderscript.Type$Builder: int mDimX
+android.support.v8.renderscript.Type$Builder: int mDimY
+android.support.v8.renderscript.Type$Builder: int mDimZ
+android.support.v8.renderscript.Type$Builder: boolean mDimMipmaps
+android.support.v8.renderscript.Type$Builder: boolean mDimFaces
+android.support.v8.renderscript.Type$Builder: int mYuv
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Element mElement
+android.support.v8.renderscript.Type$Builder: Type$Builder(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element)
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Type$Builder setX(int)
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Type$Builder setY(int)
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Type$Builder setZ(int)
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Type$Builder setMipmaps(boolean)
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Type$Builder setFaces(boolean)
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Type$Builder setYuvFormat(int)
+android.support.v8.renderscript.Type$Builder: android.support.v8.renderscript.Type create()
+android.support.v8.renderscript.Type$CubemapFace
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace POSITIVE_X
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace NEGATIVE_X
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace POSITIVE_Y
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace NEGATIVE_Y
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace POSITIVE_Z
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace NEGATIVE_Z
+android.support.v8.renderscript.Type$CubemapFace: int mID
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace[] $VALUES
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace[] values()
+android.support.v8.renderscript.Type$CubemapFace: android.support.v8.renderscript.Type$CubemapFace valueOf(java.lang.String)
+android.support.v8.renderscript.Type$CubemapFace: Type$CubemapFace(java.lang.String,int,int)
+android.support.v8.renderscript.Type$CubemapFace: void <clinit>()
+android.support.v8.renderscript.TypeThunker
+android.support.v8.renderscript.TypeThunker: android.renderscript.Type mN
+android.support.v8.renderscript.TypeThunker: java.util.HashMap mMap
+android.support.v8.renderscript.TypeThunker: android.renderscript.Type getNObj()
+android.support.v8.renderscript.TypeThunker: void internalCalc()
+android.support.v8.renderscript.TypeThunker: TypeThunker(android.support.v8.renderscript.RenderScript,android.renderscript.Type)
+android.support.v8.renderscript.TypeThunker: android.support.v8.renderscript.Type find(android.renderscript.Type)
+android.support.v8.renderscript.TypeThunker: android.support.v8.renderscript.Type create(android.support.v8.renderscript.RenderScript,android.support.v8.renderscript.Element,int,int,int,boolean,boolean,int)
+android.support.v8.renderscript.TypeThunker: android.renderscript.BaseObj getNObj()
+android.support.v8.renderscript.TypeThunker: void <clinit>()
+com.grendell.renderwatch.R$drawable: int ic_launcher
+com.grendell.renderwatch.R$id: int watch
+com.grendell.renderwatch.R$layout: int activity_watch
+com.grendell.renderwatch.R$raw: int watch
+com.grendell.renderwatch.R$string: int app_name
+com.grendell.renderwatch.R$style: int AppTheme
+com.grendell.renderwatch.activity.WatchActivity
+com.grendell.renderwatch.activity.WatchActivity: WatchActivity()
+com.grendell.renderwatch.view.RenderWatchView
+com.grendell.renderwatch.view.RenderWatchView: RenderWatchView(android.content.Context)
+com.grendell.renderwatch.view.RenderWatchView: RenderWatchView(android.content.Context,android.util.AttributeSet)
+com.grendell.renderwatch.view.RenderWatchView: RenderWatchView(android.content.Context,android.util.AttributeSet,int)
